@@ -13,8 +13,29 @@ app.$mount()
 
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
+import { createPinia } from 'pinia'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import './styles/element-variables.scss'
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+import './assets/global.css'
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+
 export function createApp() {
   const app = createSSRApp(App)
+
+  // 注册 Pinia
+  const pinia = createPinia()
+  app.use(pinia)
+
+  // 注册 Element Plus（中文）
+  app.use(ElementPlus, { locale: zhCn })
+
+  // 注册所有 Element Plus 图标
+  for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+    app.component(key, component)
+  }
+
   return {
     app
   }

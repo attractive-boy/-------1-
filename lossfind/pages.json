@@ -1,7 +1,7 @@
 {
 	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/frontend/Home",
 			"style": {
 				"navigationBarTitleText": "失物招领",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -9,7 +9,7 @@
 			}
 		},
 		{
-			"path": "pages/auth/login",
+			"path": "pages/auth/Login",
 			"style": {
 				"navigationBarTitleText": "登录",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -17,7 +17,7 @@
 			}
 		},
 		{
-			"path": "pages/auth/register",
+			"path": "pages/auth/Register",
 			"style": {
 				"navigationBarTitleText": "注册",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -25,7 +25,7 @@
 			}
 		},
 		{
-			"path": "pages/lost/index",
+			"path": "pages/frontend/lost/index",
 			"style": {
 				"navigationBarTitleText": "失物信息",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -33,7 +33,7 @@
 			}
 		},
 		{
-			"path": "pages/lost/detail",
+			"path": "pages/frontend/lost/detail",
 			"style": {
 				"navigationBarTitleText": "失物详情",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -41,7 +41,7 @@
 			}
 		},
 		{
-			"path": "pages/lost/publish",
+			"path": "pages/frontend/lost/publish",
 			"style": {
 				"navigationBarTitleText": "发布失物信息",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -49,7 +49,7 @@
 			}
 		},
 		{
-			"path": "pages/lost/edit",
+			"path": "pages/frontend/lost/edit",
 			"style": {
 				"navigationBarTitleText": "编辑失物信息",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -57,7 +57,7 @@
 			}
 		},
 		{
-			"path": "pages/found/index",
+			"path": "pages/frontend/found/index",
 			"style": {
 				"navigationBarTitleText": "招领信息",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -65,7 +65,7 @@
 			}
 		},
 		{
-			"path": "pages/found/detail",
+			"path": "pages/frontend/found/detail",
 			"style": {
 				"navigationBarTitleText": "招领详情",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -73,7 +73,7 @@
 			}
 		},
 		{
-			"path": "pages/found/publish",
+			"path": "pages/frontend/found/publish",
 			"style": {
 				"navigationBarTitleText": "发布招领信息",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -81,7 +81,7 @@
 			}
 		},
 		{
-			"path": "pages/found/edit",
+			"path": "pages/frontend/found/edit",
 			"style": {
 				"navigationBarTitleText": "编辑招领信息",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -89,7 +89,7 @@
 			}
 		},
 		{
-			"path": "pages/claim/index",
+			"path": "pages/frontend/claim/index",
 			"style": {
 				"navigationBarTitleText": "我的申请",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -97,7 +97,7 @@
 			}
 		},
 		{
-			"path": "pages/notification/index",
+			"path": "pages/frontend/notification/index",
 			"style": {
 				"navigationBarTitleText": "我的通知",
 				"navigationBarBackgroundColor": "#4A90D9",
@@ -120,19 +120,19 @@
 		"borderStyle": "black",
 		"list": [
 			{
-				"pagePath": "pages/index/index",
+				"pagePath": "pages/frontend/Home",
 				"text": "首页",
 				"iconPath": "static/tab/home.png",
 				"selectedIconPath": "static/tab/home_active.png"
 			},
 			{
-				"pagePath": "pages/lost/index",
+				"pagePath": "pages/frontend/lost/index",
 				"text": "失物",
 				"iconPath": "static/tab/lost.png",
 				"selectedIconPath": "static/tab/lost_active.png"
 			},
 			{
-				"pagePath": "pages/found/index",
+				"pagePath": "pages/frontend/found/index",
 				"text": "招领",
 				"iconPath": "static/tab/found.png",
 				"selectedIconPath": "static/tab/found_active.png"
