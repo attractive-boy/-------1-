@@ -165,7 +165,7 @@ const errorRoutes = [
   {
     path: '/404',
     name: 'NotFound',
-    component: () => import('../views/error/404.vue'),
+    component: () => import('../pages/error/404.vue'),
     meta: { title: '404 Not Found' }
   },
   {
