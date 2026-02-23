@@ -1,0 +1,154 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "失物招领",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lost/index",
+			"style": {
+				"navigationBarTitleText": "失物信息",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lost/detail",
+			"style": {
+				"navigationBarTitleText": "失物详情",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lost/publish",
+			"style": {
+				"navigationBarTitleText": "发布失物信息",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lost/edit",
+			"style": {
+				"navigationBarTitleText": "编辑失物信息",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/found/index",
+			"style": {
+				"navigationBarTitleText": "招领信息",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/found/detail",
+			"style": {
+				"navigationBarTitleText": "招领详情",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/found/publish",
+			"style": {
+				"navigationBarTitleText": "发布招领信息",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/found/edit",
+			"style": {
+				"navigationBarTitleText": "编辑招领信息",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/claim/index",
+			"style": {
+				"navigationBarTitleText": "我的申请",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/notification/index",
+			"style": {
+				"navigationBarTitleText": "我的通知",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#4A90D9",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#4A90D9",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home_active.png"
+			},
+			{
+				"pagePath": "pages/lost/index",
+				"text": "失物",
+				"iconPath": "static/tab/lost.png",
+				"selectedIconPath": "static/tab/lost_active.png"
+			},
+			{
+				"pagePath": "pages/found/index",
+				"text": "招领",
+				"iconPath": "static/tab/found.png",
+				"selectedIconPath": "static/tab/found_active.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的",
+				"iconPath": "static/tab/profile.png",
+				"selectedIconPath": "static/tab/profile_active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "失物招领系统",
+		"navigationBarBackgroundColor": "#4A90D9",
+		"backgroundColor": "#F5F7FA"
+	}
+}
